@@ -1,8 +1,16 @@
-# React + Vite
+# Frontend Website for Kawasaki 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a frontend-only website showcasing a range of Kawasaki bikes. It features an interactive image carousel and a grid of featured vehicles, designed to provide a visually engaging user experience. The website is built with React, leveraging the Swiper library for the carousel component.
 
-Currently, two official plugins are available:
+## Features
+- **Image Carousel:** Displays high-quality images of bikes with navigation, autoplay, and keyboard support.
+- **Featured Vehicles Section:** Highlights individual bike models with a grid layout and customized tile components.
+- **Responsive Design:** Adapts seamlessly across devices using CSS Grid and responsive classes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React:** Frontend framework for building user interfaces.
+- **Swiper:** To create the interactive image carousel.
+- **CSS:** Styled with both Swiper's styles and custom CSS.
+- **React Modules:** Component-based architecture for modularity and reusability.
+
