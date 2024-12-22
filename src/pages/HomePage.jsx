@@ -22,6 +22,14 @@ import { Navbar } from "../components/Navbar";
 
 
 export const HomePage = () => {
+    const bikeLinks = ["https://www.kawasaki.eu/en/Motorcycles/Hypersport/Ninja_H2R_2025.html",
+        "https://www.kawasaki.eu/en/Motorcycles/Supernaked/zh2_se_2025.html",
+        "https://www.kawasaki.eu/en/Motorcycles/Sport_Tourer/ninja_h2_sx_2025.html",
+        "https://www.kawasaki.eu/en/Motorcycles/Classic/Meguro_s1_2025.html",
+        "https://www.kawasaki.eu/en/Motorcycles/EV_HEV/Z_7_Hybrid.html",
+        "https://www.kawasaki.eu/en/Motorcycles/EV_HEV/Ninja_7_Hybrid.html"
+    ]
+
     return <div >
         <Navbar/>
         <div>
@@ -87,22 +95,29 @@ export const HomePage = () => {
 
                 <BikeTile
                     src={ninja_h2r}
-                    name="Ninja H2R|2024" />
+                    name="Ninja H2R|2024"
+                    link={bikeLinks[0]}
+                     />
                 <BikeTile
                     src={zh2se}
-                    name=" Z H2 SE|2025" />
+                    name=" Z H2 SE|2025" 
+                    link={bikeLinks[1]}/>
                 <BikeTile
                     src={ninjah2sx}
-                    name="Ninja H2 SX|2025" />
+                    name="Ninja H2 SX|2025"
+                    link={bikeLinks[2]} />
                 <BikeTile
                     src={meguro}
-                    name="Meguro S1|2025" />
+                    name="Meguro S1|2025"
+                    link={bikeLinks[3]} />
                 <BikeTile
                     src={z7hybrid}
-                    name="Z7 Hybrid|2024" />
+                    name="Z7 Hybrid|2024"
+                    link={bikeLinks[4]} />
                 <BikeTile
                     src={ninja7hybrid}
-                    name="Ninja 7 Hybrid|2024" />
+                    name="Ninja 7 Hybrid|2024"
+                    link={bikeLinks[5]} />
               
             </div>
 

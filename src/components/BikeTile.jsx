@@ -1,8 +1,9 @@
 import { useState } from "react"
 
-export const BikeTile = ({ src, name }) => {
+export const BikeTile = ({ src, name,link }) => {
 
     const [isHovered, setIsHovered] = useState(false);
+    
 
     const imageStyle = {
         width: '250px',
@@ -17,7 +18,7 @@ export const BikeTile = ({ src, name }) => {
     }
 
     return (
-        <a href="#" style={{ display: 'inline-block' }}
+        <a href={link} style={{ display: 'inline-block' }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             >
