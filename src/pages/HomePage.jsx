@@ -18,12 +18,12 @@ import ninjah2sx from "../images/2025_ninjah2sx.png"
 import meguro from "../images/meguro.png"
 import z7hybrid from "../images/z7hybrid.png"
 import ninja7hybrid from "../images/ninja7hybrid.png"
+import { Navbar } from "../components/Navbar";
 
 
 export const HomePage = () => {
-    return <div>
-
-
+    return <div >
+        <Navbar/>
         <div>
             <Swiper
                 slidesPerView={1}
